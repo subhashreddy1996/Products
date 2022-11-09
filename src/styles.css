@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.Go {
+  display: block;
+  margin-top: 200px;
+}
+.Cont1 {
+  color: blue;
+}
+.Cont {
+  display: flex;
+  flex-flow: row wrap; /* Shorthand for flex-direction: row and flex-wrap: wrap */
+}
+.Cont img {
+  width: 50%;
+  height: auto;
+}
+.Cont li {
+  flex-basis: 50%; /* or width: 50% */
+  padding-bottom: 10px;
+}
+.slideshow-container img {
+  width: 60%;
+  height: auto;
+}
+.btn {
+  background-color: none;
+  padding: 14px 28px;
+}
+.pageBtn:hover {
+  background: gold;
+}
+.pageDwn:hover {
+  background: gold;
+}
+.homeBtn:hover {
+  background: rgb(174, 174, 240);
+}
+.orderNow {
+  display: inline-block;
+  padding: 21px;
+}
+.downloadMenu {
+  display: inline-block;
+}
+.MyDownload {
+  display: inline-block;
+}
+.underline {
+  width: 10rem;
+  height: 0.3rem;
+  background: gold;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainHeading {
+  font-style: italic;
+}
+.error {
+  position: absolute !important;
+  width: 100% !important;
+  z-index: 15;
+  top: 0;
+  left: 0;
+}
